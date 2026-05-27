@@ -6,8 +6,9 @@ body{
     padding: 0px;
 }
 .navbar{
-    border: 1px solid #000000;
-    background-color: #444;
+    /* border: 1px solid #000000; */
+    background-color: #f9e5e5;
+    padding: 10px;
 }
 .navbar a{
     color: #111;
@@ -16,5 +17,5 @@ body{
 }
 .navbar a:hover{
     background-color: #666;
-    
+    padding: 10px;
 }
