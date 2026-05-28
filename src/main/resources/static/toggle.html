@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpringBoot - Beginner</title>
+    <link rel="stylesheet" href="/css/site.css">
+    <link rel="stylesheet" href="/css/card.css">
+</head>
+<body>
+    <div class="navbar">
+        <a href="/index.html">Home</a>
+        <a href="/card.html">Card</a>
+        <a href="/toggle.html">Toggle</a>
+        <a href="/randomuser.html">RandomUser</a>
+    </div>
+    
+      <div class="card">
+        <img id="userImage" src="/images/img_avatar2.png" alt="john doe">
+        <div class="card-content">
+            <h4 id="userName">jane Doe</h4>
+            <h5 id="userGender">Female</h5>
+        </div>
+        <button onclick="getAndDisplayNextRandomUser()">GetUser</button>
+      </div>
+      <script src="js/site.js"></script>
+      <script src="js/toggle.js"></script>
+      <script src="js/randomuser.js"></script>
+</body>
+</html>

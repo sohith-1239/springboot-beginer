@@ -1,0 +1,13 @@
+.card{
+    border: 10px solid rgb(0, 0, 0);
+    width: 25%;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+.card img{
+    width: 100% 
+    
+}
+.card div{
+    align-items: center;
+}
